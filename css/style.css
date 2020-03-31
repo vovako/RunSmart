@@ -153,8 +153,47 @@
     text-transform: uppercase;
     text-decoration: underline;
 }
-
-
-
-
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px;
+    background: url(../img/consultation.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.consultation__title {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.consultation__descr {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.feed-form input {
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: #4b4b4b;
+    padding: 0 20px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.feed-form input:nth-child(3) {
+    margin-bottom: 20px;
+}
+.btn_submit {
+    width: 100%;
+    height: 55px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
 
