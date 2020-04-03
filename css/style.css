@@ -197,3 +197,26 @@
     font-size: 16px;
 }
 
+
+
+.slider {
+    padding: 81px 0;
+}
+.slider__inner {
+    position: relative;
+    margin: 0 auto;
+    width: 750px;
+}
+.slick-prev, .slick-next {
+    position: absolute;
+    transform: translateY(-50%);
+    left: -97px;
+    top: 50%;
+    background-color: #fff;
+    width: 31px;
+    height: 50px;
+}
+.slick-next {
+    right: -97px;
+    left: auto;
+}
